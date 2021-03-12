@@ -1,6 +1,6 @@
 {
   "name": "@xhissy/google-stock-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node package that allows you to scrape ticker info from Google Finance",
   "main": "index.js",
   "directories": {
