@@ -12,24 +12,32 @@ npm install stock-market-scraper
 ```js
 const scrape = require('stock-market-scraper');
 
-scrape('TICKR', [afterMarket]) // After market price is a boolean. Default: true
+scrape('GOOGL', [afterMarket]) // After market price is a boolean. Default: true
 .then(info => console.log(info));
 
 // Result:
 // {
-//  companyName: 'Some Company',
-//  ticker: 'TICKR',
-//  price: '0.00',
+//  companyName: 'Alphabet Inc Class A',
+//  ticker: { 
+//    exchange: 'NASDAQ', 
+//    code: 'GOOGL'
+//  },
+//  price: '2,051.00',
 //  stats: {
-//    open: '0.00',
-//    high: '0.00',
-//    low: '0.00',
-//    cap: '0.00M',
-//    ratio: '-',
+//    open: '2,076.41',
+//    high: '2,077.61',
+//    low: '2,032.42',
+//    cap: '1.39T',
+//    ratio: '32.77',
 //    yield: '-',
-//    previousClose: '0.00',
-//    yearhigh: '0.00',
-//    yearlow: '0.00'
+//    previousClose: '2,100.54',
+//    yearhigh: '2,145.14',
+//    yearlow: '1,008.87'
+//  },
+//  daily: { 
+//    value: '−50.54', 
+//    percentage_format: '2.41%', 
+//    direction: 'down' 
 //  }
 // }
 
@@ -40,24 +48,32 @@ scrape('TICKR', [afterMarket]) // After market price is a boolean. Default: true
 const scrape = require('stock-market-scraper');
 
 (async() => {
-    const get = await scrape('TICKR', [afterMarket]); // After market price is a boolean. Default: true
+    const get = await scrape('GOOGL', [afterMarket]); // After market price is a boolean. Default: true
     console.log(get);
 })();
 
 // Result:
 // {
-//  companyName: 'Some Company',
-//  ticker: 'TICKR',
-//  price: '0.00',
+//  companyName: 'Alphabet Inc Class A',
+//  ticker: { 
+//    exchange: 'NASDAQ', 
+//    code: 'GOOGL'
+//  },
+//  price: '2,051.00',
 //  stats: {
-//    open: '0.00',
-//    high: '0.00',
-//    low: '0.00',
-//    cap: '0.00M',
-//    ratio: '-',
+//    open: '2,076.41',
+//    high: '2,077.61',
+//    low: '2,032.42',
+//    cap: '1.39T',
+//    ratio: '32.77',
 //    yield: '-',
-//    previousClose: '0.00',
-//    yearhigh: '0.00',
-//    yearlow: '0.00'
+//    previousClose: '2,100.54',
+//    yearhigh: '2,145.14',
+//    yearlow: '1,008.87'
+//  },
+//  daily: { 
+//    value: '−50.54', 
+//    percentage_format: '2.41%', 
+//    direction: 'down' 
 //  }
 // }
