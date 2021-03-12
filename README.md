@@ -4,7 +4,7 @@ A node package that allows you to scrape ticker info from Google Finance
 # Installation
 
 ```shell
-npm install stock-market-scraper
+npm install @xhissy/stock-market-scraper
 ```
 
 # Usage
