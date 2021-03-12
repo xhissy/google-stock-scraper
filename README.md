@@ -1,17 +1,18 @@
-# Stock Market Scraper
+# Google Stock Market Scraper
 A node package that allows you to scrape ticker info from Google Finance
 
 # Installation
 
 ```shell
-npm install @xhissy/stock-market-scraper
+npm install @xhissy/google-stock-scraper
 ```
 
 # Usage
 ### Using .then()
 ```js
-const scrape = require('stock-market-scraper');
+const scrape = require('google-stock-scraper');
 
+// Replace GOOGL with any Ticker
 scrape('GOOGL', [afterMarket]) // After market price is a boolean. Default: true
 .then(info => console.log(info));
 
@@ -45,8 +46,9 @@ scrape('GOOGL', [afterMarket]) // After market price is a boolean. Default: true
 ### Using async/await
 
 ```js
-const scrape = require('stock-market-scraper');
+const scrape = require('google-stock-scraper');
 
+// Replace GOOGL with any Ticker
 (async() => {
     const get = await scrape('GOOGL', [afterMarket]); // After market price is a boolean. Default: true
     console.log(get);
