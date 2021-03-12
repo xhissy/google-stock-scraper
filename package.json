@@ -1,5 +1,5 @@
 {
-  "name": "@xhissy/stock-market-scraper",
+  "name": "@xhissy/google-stock-scraper",
   "version": "1.0.0",
   "description": "A node package that allows you to scrape ticker info from Google Finance",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xhissy/stock-market-scraper.git"
+    "url": "git+https://github.com/xhissy/google-stock-scraper.git"
   },
   "keywords": [
     "stocks",
