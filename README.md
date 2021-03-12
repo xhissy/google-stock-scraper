@@ -46,7 +46,7 @@ scrape('GOOGL', [afterMarket]) // After market price is a boolean. Default: true
 ### Using async/await
 
 ```js
-const scrape = require('google-stock-scraper');
+const scrape = require('@xhissy/google-stock-scraper');
 
 // Replace GOOGL with any Ticker
 (async() => {
