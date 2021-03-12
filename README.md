@@ -10,7 +10,7 @@ npm install @xhissy/google-stock-scraper
 # Usage
 ### Using .then()
 ```js
-const scrape = require('google-stock-scraper');
+const scrape = require('@xhissy/google-stock-scraper');
 
 // Replace GOOGL with any Ticker
 scrape('GOOGL', [afterMarket]) // After market price is a boolean. Default: true
