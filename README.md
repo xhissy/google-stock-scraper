@@ -1,3 +1,6 @@
+# Original Author
+https://www.npmjs.com/package/stock-market-scraper
+
 # Google Stock Market Scraper
 A node package that allows you to scrape ticker info from Google Finance
 
