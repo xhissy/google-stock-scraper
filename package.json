@@ -25,9 +25,9 @@
   "author": "officialcourt (https://github.com/icourt/stock-market-scraper)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xhissy/stock-market-scraper/issues"
+    "url": "https://github.com/xhissy/google-stock-scraper/issues"
   },
-  "homepage": "https://github.com/xhissy/stock-market-scraper#readme",
+  "homepage": "https://github.com/xhissy/google-stock-scraper#readme",
   "dependencies": {
     "axios": ">= 0.21.1",
     "cheerio": ">= 1.0.0-rc.5"
